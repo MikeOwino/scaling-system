@@ -29,14 +29,14 @@ jobs:
           git config --local user.name "MikeOwino"
           git add -A
           
-          arr[0]="feat: 😂 auto commit"
-          arr[1]="feat: 😱 auto commit"
-          arr[2]="feat: 👿 auto commit"
-          arr[3]="feat: 💩 auto commit"
-          arr[4]="feat: 🙏 auto commit"
-          arr[5]="feat: 🙈 auto commit"
-          arr[6]="feat: 🐐 auto commit"
-          arr[7]="feat: 🚀 auto commit"
+          arr[0]="scaling-system"
+          arr[1]="scaling-system"
+          arr[2]="scaling-system"
+          arr[3]="scaling-system"
+          arr[4]="scaling-system"
+          arr[5]="scaling-system"
+          arr[6]="scaling-system"
+          arr[7]="scaling-system"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
